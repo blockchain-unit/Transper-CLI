@@ -9,6 +9,7 @@ Docker 19
 
 
 Download the image from [here](https://drive.google.com/file/d/1CceQNBz9utHHROThlKv013ND3S5785TH/view?usp=sharing)
+
 Run the following command to load the image
 ```bash
 docker load -i <path to image tar file>
