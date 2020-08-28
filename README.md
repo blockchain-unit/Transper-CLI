@@ -23,7 +23,7 @@ docker run -v <path to contract>:/home/contracts/Contract.sol --rm pythonimage /
 ```
 e.g
 ```bash
-docker run -v /home/examples/Indoaset.sol:/home/contracts/Contract.sol --rm pythonimage /home/contracts/Contract.sol Indoaset 0x8e09fe761f4eee5dac56024cc5ef9174231e5f1b
+docker run -v $(pwd)/home/examples/Indoaset.sol:/home/contracts/Contract.sol --rm pythonimage /home/contracts/Contract.sol Indoaset 0x8e09fe761f4eee5dac56024cc5ef9174231e5f1b
 ```
 Addresses.csv contains addresses of the contracts in examples folder.
 
